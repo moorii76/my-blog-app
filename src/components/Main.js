@@ -5,7 +5,7 @@ import { BlogItemDetail } from './BlogItemDetail';
 import { ResultItems } from './ResultItems';
 
 const URLPATH = {
-  top: '/my-blog-app',
+  top: '/',
   detaile: '/blogItem/:id',
   result: '/resultItems',
 };
