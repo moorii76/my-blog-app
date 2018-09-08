@@ -170,7 +170,7 @@ export class Header extends Component {
         <TopButton sticky={this.state.sticky} onClick={this.handleTop}><i className="fas fa-arrow-up"></i></TopButton>
         <TitleWrapper>
           <Title>
-            <Link to="/">旅人エンジニアの日記</Link>
+            <Link to="/my-blog-app">旅人エンジニアの日記</Link>
           </Title>
         </TitleWrapper>
       </Wrapper>

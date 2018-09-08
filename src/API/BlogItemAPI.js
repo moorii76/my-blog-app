@@ -1,5 +1,4 @@
-// const baseURL = 'https://us-central1-travelerengineerdiary.cloudfunctions.net/v1';
-const baseURL = 'http://localhost:5000/travelerengineerdiary/us-central1/v1';
+const baseURL = 'https://us-central1-travelerengineerdiary.cloudfunctions.net/v1';
 
 const convertJSON = (json) => {
     let jsonList = [];
