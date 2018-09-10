@@ -12,6 +12,7 @@ import {
 } from '../components';
 import img from '../img/backimg.png'
 
+// スタイルを定義
 const Wrapper = styled.div`
   height: 100%;  
   width: 100%;
@@ -38,6 +39,7 @@ ContentWrapper = styled.div`
   }
 `;
 
+// ブログアプリケーションコンポーネント
 class BlogApp extends Component {
   constructor() {
     super();
@@ -52,6 +54,7 @@ class BlogApp extends Component {
     }
   }
 
+  // Stateの更新
   updateState = () => {
     if(this.state.blogItems.length && this.state.dateItems.length && this.state.tagItems.length && !this.state.doSearch) return;
 
@@ -67,6 +70,7 @@ class BlogApp extends Component {
       .catch(err => console.log(err));
   }
 
+  // 検索時のStateを更新
   updateState_Search = () => {
     // 選択した日付を取得
     let selectDate = "";
@@ -93,6 +97,7 @@ class BlogApp extends Component {
       .catch(err => console.log(err));
   }
 
+  // 検索テキストのonChange
   handelChange_SearchValue = (event, isOnly) => {
     if (isOnly) {
       this.setState({
@@ -107,6 +112,7 @@ class BlogApp extends Component {
     }
   }
 
+  // 日付選択時のonClick
   handleSelect_Date = (val, isOnly) => {
     let selectDate, dateId;
 
@@ -126,6 +132,7 @@ class BlogApp extends Component {
     }
   }
 
+  // タグ選択時のonClick
   handleSelect_Tag = (val, isOnly) => {
     if (isOnly) {
       this.setState({
@@ -140,6 +147,7 @@ class BlogApp extends Component {
     }
   }
 
+  // 検索条件Stateのリセット
   resetSearchState = () => {
     this.setState({
       searchValue: '',
