@@ -10,6 +10,7 @@ const URLPATH = {
   result: '/resultItems',
 };
 
+// メインコンポーネント
 export class Main extends React.Component {
   constructor(props) {
     super(props);

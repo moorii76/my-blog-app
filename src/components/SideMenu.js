@@ -46,6 +46,7 @@ TagWrapper = Styled.div`
     }
 `;
 
+// サイドメニューコンポーネント
 export class SideMenu extends React.Component {
     constructor(props) {
         super(props);

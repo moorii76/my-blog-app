@@ -35,6 +35,7 @@ Item = Styled.li`
   animation-fill-mode: forwards;
 `;
 
+// ブログの一覧表示するコンポーネント
 export function BlogItems(props) {
     const blogItems = props.blogItems.map((obj, index) => {
       return (

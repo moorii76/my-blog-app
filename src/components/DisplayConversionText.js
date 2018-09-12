@@ -37,6 +37,7 @@ const Tags = {
     code: '#C'
 };
 
+// ブログ本文(マークダウン系)を表示用にコンバートするコンポーネント
 export class DisplayConversionText extends React.Component {
     constructor(props) {
         super(props);

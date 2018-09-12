@@ -73,6 +73,7 @@ Image = Styled.img.attrs({
   border-radius: 0 5px 5px 0;
 `;
 
+// ブログ記事情報を抽象情報表示するコンポーネント
 export function BlogItem(props) {
   const tags = props.blogItem.tags.map((obj,key) => {
     return (

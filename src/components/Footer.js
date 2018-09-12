@@ -25,6 +25,7 @@ CopyrightLink = Styled.a.attrs({
   }
 `;
 
+// フッターを表示するコンポーネント
 export function Footer() {
     return (
       <Wrapper id="footer">

@@ -35,6 +35,7 @@ SideWrapper = Styled.aside`
     }
 `;
 
+// ブログのトップ画面表示するコンポーネント
 export class BlogTop extends React.Component {
     constructor(props) {
         super(props);

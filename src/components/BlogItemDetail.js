@@ -105,6 +105,7 @@ Button = Styled.button.attrs({
   }
 `;
 
+// ブログ記事を表示するコンポーネント
 export class BlogItemDetail extends React.Component {
   constructor(props) {
     super(props);

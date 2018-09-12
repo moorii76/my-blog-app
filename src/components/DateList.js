@@ -65,6 +65,7 @@ Item = Styled.li`
     }
 `;
 
+// 日付一覧を表示するコンポーネント
 export function DateList(props) {
     const dateItems = props.dateItems.map((obj, key) => {
         return (

@@ -68,6 +68,7 @@ ListWrapper = Styled.div`
     margin-top: 30px;
 `;
 
+// 検索画面コンポーネント
 export class ResultItems extends React.Component {
     constructor(props) {
         super(props);

@@ -81,6 +81,7 @@ ItemNumber = Styled.span`
     overflow: hidden;
 `;
 
+// タグリストを表示するコンポーネント
 export function TagList(props) {
     const tagItems = props.tagItems.map((obj, key) => {
         return (
